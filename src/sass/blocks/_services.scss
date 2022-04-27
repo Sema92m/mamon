@@ -21,8 +21,7 @@
     &__products {
         display: grid;
         grid-template: 50% 50% / 50% 50%;
-        grid-column-gap: 80px;
-        grid-row-gap: 14px;
+        gap: 15px 80px;
         
     }
 
