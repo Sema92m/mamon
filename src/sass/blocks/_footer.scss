@@ -1,0 +1,30 @@
+.footer {
+    background-color: #F7F7F7;
+    
+    &__wrapper {
+        min-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(../../img/logo.svg);
+        height: 58px;
+        width: 58px;
+        margin-right: 25px; 
+            
+        }
+    &__nav {
+        display: flex;
+        list-style-type: none;
+        li {
+            margin-right: 30px;
+        }
+    }
+    
+}

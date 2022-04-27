@@ -1,0 +1,19 @@
+.clients {
+    min-height: 450px;
+    &__line{
+        position: relative;
+        border-top: 0px solid #C2C2C2;
+    }
+    &__pagename {
+        position: absolute;
+        font-size: 14px;
+        line-height: 16px;
+        color: #C2C2C2;
+        background-color: #fff;
+        padding: 10px 15px;
+        top: -70px;
+    }
+    &__components{
+        margin-top: 53px;
+    }
+}

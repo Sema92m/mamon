@@ -1,0 +1,55 @@
+.team {
+    min-height: 540px;
+   
+    &__line{
+        position: relative;
+        border-top: 0px solid #C2C2C2;
+    }
+    &__pagename {
+        position: absolute;
+        font-size: 14px;
+        line-height: 16px;
+        color: #C2C2C2;
+        background-color: #fff;
+        padding: 10px 15px;
+        top: -25px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__iteam {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100px;
+        width: 270px;
+        margin-top: 60px;
+        margin-right: 123px;
+    }
+    &__img{
+        display: block;
+        flex-basis: 100px;
+        text-align: center;
+        margin-right: 35px;    
+    }
+   
+    &__name {
+        display: inline;
+        font-size: 28px;
+        font-weight: bold;
+        color: #202020;
+        top:0;
+       
+    }
+    &__position {
+        display: block;
+        font-size: 14px;
+        color: #B2B2B2;
+        margin-top: 10px;
+        }
+
+    
+    
+
+}
