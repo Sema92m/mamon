@@ -9,8 +9,10 @@
     width: 1180px;
     margin: 0 auto;
     box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
+@import 'base/media';
 @import 'base/variables';
 @import 'blocks/header';
 @import 'blocks/main';
@@ -18,4 +20,4 @@
 @import 'blocks/clients';
 @import 'blocks/team';
 @import 'blocks/footer';
-@import 'base/media';
+

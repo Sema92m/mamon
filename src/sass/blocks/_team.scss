@@ -1,5 +1,5 @@
 .team {
-    min-height: 540px;
+    min-height: 560px;
    
     &__line{
         position: relative;
@@ -12,20 +12,20 @@
         color: #C2C2C2;
         background-color: #fff;
         padding: 10px 15px;
-        top: -25px;
+        top: -78px;
     }
     &__wrapper {
-        display: flex;
-        flex-wrap: wrap;
+        height: 420px;
+        display: grid;
+        grid-template: repeat(3, 33.33%) / repeat(3, 33.33%);
+        grid-auto-rows: auto;
+        margin-top: 60px;
+        column-gap: 138px;
+
     }
     &__iteam {
         display: flex;
-        justify-content: flex-start;
         align-items: center;
-        height: 100px;
-        width: 270px;
-        margin-top: 60px;
-        margin-right: 123px;
     }
     &__img{
         display: block;
@@ -33,14 +33,12 @@
         text-align: center;
         margin-right: 35px;    
     }
-   
     &__name {
         display: inline;
         font-size: 28px;
         font-weight: bold;
         color: #202020;
         top:0;
-       
     }
     &__position {
         display: block;
@@ -48,8 +46,4 @@
         color: #B2B2B2;
         margin-top: 10px;
         }
-
-    
-    
-
 }
